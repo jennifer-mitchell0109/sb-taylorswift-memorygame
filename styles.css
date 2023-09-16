@@ -1,0 +1,82 @@
+body {
+  background-image: url('background3.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 8rem;
+  letter-spacing: 3px;
+  margin: 1.5rem 0 -4rem 1rem;
+  font-family: "Anton";
+  color: #F8BBD4;
+  /* color: #F4D9C0; */
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+h2 {
+    font-size: 6rem;
+    margin: 0 0 0 2.75rem;
+    /* color: #FFFFFF; */
+    /* color: #0B3361; */
+    color: #030347;
+    font-family: "Satisfy", sans-serif;
+}
+
+#game {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(5, 1fr);
+  max-width: 70%;
+  padding: 1rem;
+  margin: 1.5rem 0 0 1rem;
+  box-sizing: border-box;
+}
+
+#game div {
+  border: 2px solid navy;
+  /* width: 15%; */
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+  cursor: pointer;
+  background-color: white;
+  background-image: url('cardback5.jpeg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+#game .red.flipped {
+  background-image: url('1-Red.jpeg');
+  background-size: cover;
+  background-position: center center;
+}
+
+#game .midnights.flipped {
+  background-image: url('2-Midnights.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+#game .folklore.flipped {
+  background-image: url('3-folklore.jpeg');
+  background-size: cover;
+  background-position: center center;
+}
+
+#game .lover.flipped {
+  background-image: url('4-lover.jpeg');
+  background-size: cover;
+  background-position: center center;
+}
+
+#game .ts1989.flipped {
+  background-image: url('5-1989.jpeg');
+  background-size: cover;
+  background-position: center center;
+}
+
